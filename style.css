@@ -1,0 +1,324 @@
+:root {
+    --yellow: #8da256cc;
+    --black: #212429;
+    --green: #18a2b7;
+    --title: #6c747d;
+    --main: #353941;
+    --nav-color: #dee2e7;
+  
+    --body-fonts: 'Roboto', sans-serif;
+    --skills: #017afd;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #e2e6d9;
+  
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color:#5623d8;
+  }
+  
+  p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--title)
+  }
+  
+  /*---------------Header-----------*/
+  
+  header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--nav-color);
+    flex-wrap: wrap;
+    width: 100%;
+    height: 4.5rem;
+  }
+  header h1{
+    margin-right: auto;
+    margin-left: 0.2rem;
+  
+  }
+  header img{
+    width: 3rem;
+    margin-left: 1rem;
+    margin-right: 0;
+  
+  }
+  .nav-links{
+    display: flex;
+    margin-right: 2rem;
+    padding: .6rem;
+  
+  }
+  .nav-links li {
+    list-style: none;
+    padding: 0 1rem;
+    box-shadow: #000;
+    box-sizing: content-box;
+  }
+    
+  
+  .nav-links li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--main);
+    font-family:"Californian FB" ;
+  }
+    
+  
+  .hamburger{
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .hamburger:focus{
+    outline:invert;
+  }
+  
+  /* ----MAIN SECTION----- */
+  #main-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 70%;
+  }
+  
+  .avtar img {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .avtar h2 {
+    text-align: center;
+    color: var(--title);
+    font-size: 3rem;
+    padding: .8rem;
+  }
+  
+  .About {
+    width: 65%;
+    /* padding: 0 .5rem; */
+  }
+  #about{
+    transition: all 0.9s;
+  }
+  .para {
+    padding-bottom: 1rem;
+  }
+  
+  /* SOCIAL ICONS */
+  .social .btn {
+    text-decoration: none;
+    color: var(--nav-color);
+    background-color: var(--green);
+    padding: 1rem 1rem;
+    border-radius: 35px;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+    margin: right 30px;
+  }
+  
+  .fab {
+    padding: .7rem .5rem;
+    font-size: 70px;
+    margin-right: 30px;
+    margin-left: 20px;
+    /* color: var(--yellow); */
+    /* border: 1px solid red; */
+  }
+  
+  /* .fa-facebook{ */
+  /*  background-color: var(--facebook);
+   }
+   .fa-instagram{
+   background-color: red;
+   } */
+  
+  
+  /* ------SKILLS SECTION----- */
+  
+  #skills h1 {
+    text-align: center;
+    color: var(--skills);
+    margin: 5rem;
+    background-color: #e2e6d9;
+    height: 40px;
+    font-weight: 40px;
+    font-size: xx-large;
+
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+    height: 30rem;
+    background-color: #c0a0ca79;
+  
+  }
+  .skills-container h2{
+     padding-bottom: 0.5rem;
+  }
+  
+  .python {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--yellow);
+    height: 17rem;
+    width: 33.3%;
+    margin: 15px;
+    border-radius: .8rem;
+    box-shadow: 0 4px 8px 0 rgba(16, 14, 14, 0.959),
+    0 6px 20px 0 rgba(10, 9, 9, 0.856);
+    border-radius: 18% ;
+  }
+
+  
+  .robot {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--yellow);
+    height: 17rem;
+    width: 33.3%;
+    margin: 15px;
+    border-radius: .8rem;
+    box-shadow: 0 4px 8px 0 rgba(16, 14, 14, 0.959),
+    0 6px 20px 0 rgba(10, 9, 9, 0.856);
+    border-radius: 18% ;
+  }
+  
+  .html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--yellow);
+    height: 17rem;
+    width: 33.3%;
+    margin: 15px;
+    border-radius: .8rem;
+    box-shadow: 0 4px 8px 0 rgba(16, 14, 14, 0.959),
+    0 6px 20px 0 rgba(10, 9, 9, 0.856);
+    border-radius: 18%;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-top: -50px;
+    padding-bottom: 20px;
+  }
+  
+  /*------FOOTER-------*/
+  #footer-container{
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 6rem;
+  }
+  #footer-container img{
+    width: 2rem;
+  }
+  #footer-container p{
+    padding: .5rem;
+  }
+  
+  
+  /*-----MEDIA QUERIES-----*/
+  
+  @media screen and (max-width: 575px) {
+    .hamburger{
+      display: block;
+      margin-right: 1rem;
+    }
+    header h1{
+      font-size: 1rem;
+      
+    }
+    header img{
+      width: 2rem;
+    }
+    #nav-Ul{
+      display: none;
+    }
+    #nav-Ul.show{
+     display: flex;
+     width: 100%;
+    }
+    .nav-links li a{
+      font-size: 1rem;
+    }
+  #about {
+    transition: all 0.9s;
+  }
+  #main-section{
+    flex-direction: column;
+    margin: 2rem auto 2rem auto;
+  }
+  .avtar img{
+    width: 230px;
+    padding-left: 3rem;
+  }
+  .About{
+    width: 100%;
+    text-align: justify;
+  }
+  .para{
+      font-size: .9rem;
+      color: var(--black);
+  
+  }
+    .skills-container{
+    flex-direction: column;
+    width: 80%;
+    height: 55rem;
+  }
+  .python, 
+  .robot, 
+  .html
+  {
+  width: 70%;
+  height: 60%;
+  }
+  
+  .icon{
+    font-size: 1.5rem;
+  }
+  .fa-robot{
+    padding-top: 1.2rem;
+  }
+  }
+  
+  
+  
+  
